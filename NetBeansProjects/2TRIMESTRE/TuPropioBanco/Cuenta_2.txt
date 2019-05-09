@@ -1,0 +1,160 @@
+El cliente 4 ha retirado 60.18 en su cuenta. El saldo de la cuenta es de 9216.68
+El cliente 4 a realizado un transpaso a cliente 3 de 60.18
+============== Mes 0 día 1===============
+============== Mes 0 día 2===============
+Se ingresaron 364.72 en la cuenta 2. El saldo de la cuenta es de 9581.4
+============== Mes 0 día 3===============
+Se ingresaron 364.68 en la cuenta 2. El saldo de la cuenta es de 9946.09
+Cliente 2 pidió su saldo que es de: 9581.4
+Se ingresaron 417.69 en la cuenta 2. El saldo de la cuenta es de 10363.78
+============== Mes 0 día 4===============
+Cliente 2 pidió su saldo que es de: 10363.78
+============== Mes 0 día 5===============
+El cliente 2 ha retirado 275.77 en su cuenta. El saldo de la cuenta es de 10088.01
+El cliente 4 ha retirado 205.21 en su cuenta. El saldo de la cuenta es de 9882.8
+El cliente 4 a realizado un transpaso a cliente 1 de 205.21
+Se ingresaron 347.8 en la cuenta 2. El saldo de la cuenta es de 10230.6
+Se ingresaron 150.66 en la cuenta 2. El saldo de la cuenta es de 10381.26
+Se ingresaron 348.8 en la cuenta 2. El saldo de la cuenta es de 10730.05
+============== Mes 0 día 6===============
+============== Mes 0 día 7===============
+============== Mes 0 día 8===============
+Se ingresaron 196.4 en la cuenta 2. El saldo de la cuenta es de 10926.46
+El cliente 4 ha retirado 28.54 en su cuenta. El saldo de la cuenta es de 10897.92
+El cliente 4 a realizado un transpaso a cliente 1 de 28.54
+============== Mes 0 día 9===============
+Se ingresaron 370.64 en la cuenta 2. El saldo de la cuenta es de 11268.56
+============== Mes 0 día 10===============
+El cliente 4 ha retirado 416.89 en su cuenta. El saldo de la cuenta es de 10851.67
+El cliente 4 a realizado un transpaso a cliente 0 de 416.89
+Se ingresaron 374.23 en la cuenta 2. El saldo de la cuenta es de 11225.9
+============== Mes 0 día 11===============
+El cliente 4 ha retirado 427.11 en su cuenta. El saldo de la cuenta es de 10798.79
+El cliente 4 a realizado un transpaso a cliente 1 de 427.11
+============== Mes 0 día 12===============
+El cliente 2 ha retirado 444.04 en su cuenta. El saldo de la cuenta es de 10354.76
+El cliente 4 ha retirado 279.91 en su cuenta. El saldo de la cuenta es de 10074.84
+El cliente 4 a realizado un transpaso a cliente 3 de 279.91
+Se ingresaron 34.91 en la cuenta 2. El saldo de la cuenta es de 10109.75
+============== Mes 0 día 13===============
+Se ingresaron 15.09 en la cuenta 2. El saldo de la cuenta es de 10124.85
+El cliente 4 ha retirado 73.62 en su cuenta. El saldo de la cuenta es de 10051.23
+Se ingresaron 418.05 en la cuenta 2. El saldo de la cuenta es de 10469.27
+El cliente 4 a realizado un transpaso a cliente 3 de 73.62
+Se ingresaron 121.52 en la cuenta 2. El saldo de la cuenta es de 10590.8
+============== Mes 0 día 14===============
+El cliente 4 ha retirado 38.85 en su cuenta. El saldo de la cuenta es de 10551.94
+El cliente 4 a realizado un transpaso a cliente 3 de 38.85
+Se ingresaron 248.05 en la cuenta 2. El saldo de la cuenta es de 10799.99
+============== Mes 0 día 15===============
+============== Mes 0 día 16===============
+Se ingresaron 474.56 en la cuenta 2. El saldo de la cuenta es de 11274.55
+============== Mes 0 día 17===============
+Se ingresaron 40.67 en la cuenta 2. El saldo de la cuenta es de 11315.23
+Se ingresaron 398.37 en la cuenta 2. El saldo de la cuenta es de 11713.6
+El cliente 4 ha retirado 459.17 en su cuenta. El saldo de la cuenta es de 11254.43
+El cliente 4 a realizado un transpaso a cliente 1 de 459.17
+============== Mes 0 día 18===============
+============== Mes 0 día 19===============
+Se ingresaron 9.97 en la cuenta 2. El saldo de la cuenta es de 11264.4
+Cliente 2 pidió su saldo que es de: 11264.4
+============== Mes 0 día 20===============
+Cliente 2 pidió su saldo que es de: 11264.4
+============== Mes 0 día 21===============
+El cliente 2 ha retirado 275.92 en su cuenta. El saldo de la cuenta es de 10988.47
+El cliente 4 ha retirado 128.71 en su cuenta. El saldo de la cuenta es de 10859.76
+El cliente 4 a realizado un transpaso a cliente 0 de 128.71
+Se ingresaron 3.85 en la cuenta 2. El saldo de la cuenta es de 10863.61
+============== Mes 0 día 22===============
+El cliente 2 ha retirado 185.92 en su cuenta. El saldo de la cuenta es de 10677.69
+El cliente 4 ha retirado 39.73 en su cuenta. El saldo de la cuenta es de 10637.96
+El cliente 4 a realizado un transpaso a cliente 1 de 39.73
+Se ingresaron 107.66 en la cuenta 2. El saldo de la cuenta es de 10745.62
+============== Mes 0 día 23===============
+============== Mes 0 día 24===============
+Se ingresaron 487.79 en la cuenta 2. El saldo de la cuenta es de 11233.41
+============== Mes 0 día 25===============
+Se ingresaron 290.79 en la cuenta 2. El saldo de la cuenta es de 11524.2
+============== Mes 0 día 26===============
+Se ingresaron 365.02 en la cuenta 2. El saldo de la cuenta es de 11889.22
+El cliente 4 ha retirado 325.65 en su cuenta. El saldo de la cuenta es de 11563.57
+El cliente 4 a realizado un transpaso a cliente 3 de 325.65
+Se ingresaron 176.68 en la cuenta 2. El saldo de la cuenta es de 11740.25
+Se ingresaron 400.61 en la cuenta 2. El saldo de la cuenta es de 12140.86
+============== Mes 0 día 27===============
+Cliente 2 pidió su saldo que es de: 12140.86
+============== Mes 0 día 28===============
+Se ingresaron 496.58 en la cuenta 2. El saldo de la cuenta es de 12637.44
+Se ingresaron 448.9 en la cuenta 2. El saldo de la cuenta es de 13086.33
+============== Mes 0 día 29===============
+============== Mes 0 día 30===============
+Se ingresaron 15.18 en la cuenta 2. El saldo de la cuenta es de 13101.51
+El cliente 4 ha retirado 456.81 en su cuenta. El saldo de la cuenta es de 12644.71
+El cliente 4 a realizado un transpaso a cliente 0 de 456.81
+Se ingresaron 440.66 en la cuenta 2. El saldo de la cuenta es de 13085.37
+============== Mes 0 día 31===============
+Hemos aplicado un incremento de 10% en la cuenta 0
+Hemos aplicado un incremento de 25% en la cuenta 0
+Se ingresaron 243.39 en la cuenta 2. El saldo de la cuenta es de 18235.78
+============== Mes 1 día 1===============
+Cliente 2 pidió su saldo que es de: 18235.78
+============== Mes 1 día 2===============
+El cliente 2 ha retirado 203.8 en su cuenta. El saldo de la cuenta es de 18031.98
+El cliente 4 ha retirado 78.83 en su cuenta. El saldo de la cuenta es de 17953.15
+El cliente 4 a realizado un transpaso a cliente 0 de 78.83
+============== Mes 1 día 3===============
+Se ingresaron 494.42 en la cuenta 2. El saldo de la cuenta es de 18684.97
+Se ingresaron 237.41 en la cuenta 2. El saldo de la cuenta es de 18190.56
+============== Mes 1 día 4===============
+Se ingresaron 130.86 en la cuenta 2. El saldo de la cuenta es de 18815.83
+Cliente 2 pidió su saldo que es de: 18815.83
+============== Mes 1 día 5===============
+============== Mes 1 día 6===============
+============== Mes 1 día 7===============
+============== Mes 1 día 8===============
+============== Mes 1 día 9===============
+Se ingresaron 171.81 en la cuenta 2. El saldo de la cuenta es de 18987.64
+Cliente 2 pidió su saldo que es de: 18987.64
+Se ingresaron 39.82 en la cuenta 2. El saldo de la cuenta es de 19027.46
+============== Mes 1 día 10===============
+Se ingresaron 459.58 en la cuenta 2. El saldo de la cuenta es de 19487.04
+El cliente 4 ha retirado 173.76 en su cuenta. El saldo de la cuenta es de 19313.29
+Se ingresaron 86.96 en la cuenta 2. El saldo de la cuenta es de 19400.25
+El cliente 4 a realizado un transpaso a cliente 3 de 173.76
+============== Mes 1 día 11===============
+Cliente 2 pidió su saldo que es de: 19400.25
+============== Mes 1 día 12===============
+============== Mes 1 día 13===============
+El cliente 2 ha retirado 400.53 en su cuenta. El saldo de la cuenta es de 18999.72
+Se ingresaron 489.36 en la cuenta 2. El saldo de la cuenta es de 19489.08
+El cliente 4 ha retirado 99.05 en su cuenta. El saldo de la cuenta es de 19390.04
+El cliente 4 a realizado un transpaso a cliente 0 de 99.05
+============== Mes 1 día 14===============
+============== Mes 1 día 15===============
+El cliente 2 ha retirado 374.57 en su cuenta. El saldo de la cuenta es de 19015.47
+El cliente 4 ha retirado 318.93 en su cuenta. El saldo de la cuenta es de 18696.53
+El cliente 4 a realizado un transpaso a cliente 1 de 318.93
+Se ingresaron 417.46 en la cuenta 2. El saldo de la cuenta es de 19114.0
+============== Mes 1 día 16===============
+El cliente 2 ha retirado 195.02 en su cuenta. El saldo de la cuenta es de 18918.98
+El cliente 4 ha retirado 283.86 en su cuenta. El saldo de la cuenta es de 18635.12
+El cliente 4 a realizado un transpaso a cliente 3 de 283.86
+Se ingresaron 152.13 en la cuenta 2. El saldo de la cuenta es de 18787.25
+============== Mes 1 día 17===============
+Se ingresaron 153.02 en la cuenta 2. El saldo de la cuenta es de 18940.27
+Se ingresaron 31.04 en la cuenta 2. El saldo de la cuenta es de 18971.32
+============== Mes 1 día 18===============
+Se ingresaron 314.22 en la cuenta 2. El saldo de la cuenta es de 19285.54
+El cliente 4 ha retirado 40.75 en su cuenta. El saldo de la cuenta es de 19244.79
+El cliente 4 a realizado un transpaso a cliente 1 de 40.75
+Se ingresaron 52.91 en la cuenta 2. El saldo de la cuenta es de 19297.7
+============== Mes 1 día 19===============
+Se ingresaron 263.9 en la cuenta 2. El saldo de la cuenta es de 19561.6
+============== Mes 1 día 20===============
+El cliente 2 ha retirado 308.97 en su cuenta. El saldo de la cuenta es de 19252.63
+El cliente 4 ha retirado 455.46 en su cuenta. El saldo de la cuenta es de 18797.18
+Se ingresaron 248.15 en la cuenta 2. El saldo de la cuenta es de 19045.33
+El cliente 4 a realizado un transpaso a cliente 1 de 455.46
+Se ingresaron 160.56 en la cuenta 2. El saldo de la cuenta es de 19205.89
+Se ingresaron 303.16 en la cuenta 2. El saldo de la cuenta es de 19509.05
+============== Mes 1 día 21===============

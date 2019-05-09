@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="424.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basedatos.FXMLDocumentController">
+   <children>
+      <Button fx:id="conectar" layoutX="30.0" layoutY="35.0" mnemonicParsing="false" onAction="#conectar" text="Conectar BD" />
+      <Button fx:id="cTabla" layoutX="30.0" layoutY="83.0" mnemonicParsing="false" onAction="#cTabla" text="Crear Tabla" />
+      <Button fx:id="dTabla" layoutX="406.0" layoutY="83.0" mnemonicParsing="false" onAction="#bTabla" text="Borrar Tabla" />
+      <Button fx:id="insert" layoutX="28.0" layoutY="131.0" mnemonicParsing="false" onAction="#insert" text="Insertar tupla" />
+      <TextField layoutX="30.0" layoutY="212.0" prefHeight="182.0" prefWidth="450.0" />
+      <Button fx:id="desconectar" layoutX="387.0" layoutY="35.0" mnemonicParsing="false" onAction="#desconectar" text="Desconectar BD" />
+      <Button fx:id="delete" layoutX="406.0" layoutY="131.0" mnemonicParsing="false" onAction="#delete" text="Borrar Tupla" />
+      <Button fx:id="select" layoutX="214.0" layoutY="171.0" mnemonicParsing="false" onAction="#select" text="Ver contenido" />
+      <TextField layoutX="140.0" layoutY="35.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="137.0" layoutY="83.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField layoutX="140.0" layoutY="131.0" prefHeight="25.0" prefWidth="239.0" />
+   </children>
+</AnchorPane>

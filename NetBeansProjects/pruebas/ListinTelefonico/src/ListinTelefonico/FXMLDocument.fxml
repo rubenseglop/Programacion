@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="892.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListinTelefonico.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="598.0" fitWidth="899.0" opacity="0.61" pickOnBounds="true">
+         <image>
+            <Image url="@fondo.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fb9ff" height="35.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="892.0" />
+      <Group id="body" layoutX="6.0" layoutY="62.0" stylesheets="@styles.css">
+         <children>
+            <Group layoutX="-1.0" layoutY="1.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="-1.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="168.0" />
+                  <Text fx:id="i100" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACION" />
+                  <Text fx:id="i101" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACION" />
+                  <Text fx:id="i102" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACION" />
+                  <Text fx:id="uno2" layoutX="145.0" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="100" textAlignment="CENTER" />
+                  <Text fx:id="uno21" layoutX="145.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="101" />
+                  <Text fx:id="uno211" layoutX="145.0" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="102" />
+                  <Text fx:id="uno3112" strokeType="OUTSIDE" strokeWidth="0.0" text="Información" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="-1.0" layoutY="89.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="-1.0" layoutY="-17.0" stroke="BLACK" strokeType="INSIDE" width="168.0" />
+                  <Text fx:id="i103" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="BELEN" />
+                  <Text fx:id="uno2111" layoutX="145.0" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="103" />
+                  <Text fx:id="uno31" strokeType="OUTSIDE" strokeWidth="0.0" text="Formacion y Empleo" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="i104" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="PALOMA" />
+                  <Text fx:id="i107" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. ANT. GARRIDO" />
+                  <Text fx:id="i108" layoutY="77.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="C. ALMAGRO" />
+                  <Text fx:id="i109" layoutY="94.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="EMILIA" />
+                  <Text fx:id="uno21111" layoutX="145.0" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="104" />
+                  <Text fx:id="uno21112" layoutX="145.0" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="107" />
+                  <Text fx:id="uno21113" layoutX="145.0" layoutY="77.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="108" />
+                  <Text fx:id="uno21114" layoutX="145.0" layoutY="94.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="109" />
+               </children>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Group>
+            <Group layoutX="-1.0" layoutY="209.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="-1.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="168.0" />
+                  <Text fx:id="i460" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. ANA BELEN MOLINA">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Text>
+                  <Text fx:id="i461" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="RECEPCION" />
+                  <Text fx:id="i462" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="ELVIRA" />
+                  <Text fx:id="i463" layoutY="77.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="REME" />
+                  <Text fx:id="i464" layoutY="94.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="AGUSTINA" />
+                  <Text fx:id="i465" layoutY="111.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="LOLA MARTINEZ" />
+                  <Text fx:id="i466" layoutY="128.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="CESAR" />
+                  <Text fx:id="i467" layoutY="145.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="MARINA" />
+                  <Text fx:id="i468" layoutY="162.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="ARACELI" />
+                  <Text fx:id="i469" layoutY="179.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="LOLA MUÑOZ" />
+                  <Text fx:id="uno31111111111" strokeType="OUTSIDE" strokeWidth="0.0" text="Servicios Sociales" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno211141" layoutX="145.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="460" />
+                  <Text fx:id="uno2111411" layoutX="145.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="461" />
+                  <Text fx:id="uno21114111" layoutX="145.0" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="462" />
+                  <Text fx:id="uno211141111" layoutX="145.0" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="463" />
+                  <Text fx:id="uno2111411111" layoutX="145.0" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="464" />
+                  <Text fx:id="uno21114111111" layoutX="145.0" layoutY="111.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="465" />
+                  <Text fx:id="uno211141111111" layoutX="145.0" layoutY="128.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="466" />
+                  <Text fx:id="uno2111411111111" layoutX="145.0" layoutY="145.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="467" />
+                  <Text fx:id="uno21114111111111" layoutX="145.0" layoutY="162.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="468" />
+                  <Text fx:id="uno211141111111111" layoutX="145.0" layoutY="179.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="469" />
+               </children>
+            </Group>
+            <Group layoutX="-1.0" layoutY="412.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i309" layoutY="26.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="ELISA (SEC. GENERAL)" />
+                  <Text fx:id="i303" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="ALFONSO PULIDO" />
+                  <Text fx:id="i306" layoutY="61.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="YOLANDA" />
+                  <Text fx:id="i307" layoutY="79.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIAN" />
+                  <Text fx:id="i308" layoutY="97.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="LOLI" />
+                  <Text fx:id="i310" layoutY="115.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="JOSE" />
+                  <Text fx:id="uno31111111" strokeType="OUTSIDE" strokeWidth="0.0" text="Secretaria" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno2111411111111111" layoutX="145.0" layoutY="26.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="309" />
+                  <Text fx:id="uno21114111111111111" layoutX="145.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="303" />
+                  <Text fx:id="uno211141111111111111" layoutX="145.0" layoutY="61.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="306" />
+                  <Text fx:id="uno2111411111111111111" layoutX="145.0" layoutY="79.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="307" />
+                  <Text fx:id="uno21114111111111111111" layoutX="145.0" layoutY="97.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="308" />
+                  <Text fx:id="uno211141111111111111111" layoutX="145.0" layoutY="115.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="310" />
+               </children>
+            </Group>
+            <Group layoutX="177.0" layoutY="1.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i300" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="ALCALDE NOEL LOPEZ" />
+                  <Text fx:id="i301" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="CARLOS" />
+                  <Text fx:id="i302" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MARU" />
+                  <Text fx:id="i304" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="RITA" />
+                  <Text fx:id="i305" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MIGUEL MARTIN" />
+                  <Text fx:id="uno22" layoutX="146.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="300" textAlignment="CENTER" />
+                  <Text fx:id="uno311" strokeType="OUTSIDE" strokeWidth="0.0" text="Alcaldia" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno222" layoutX="146.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="301" textAlignment="CENTER" />
+                  <Text fx:id="uno2221" layoutX="146.0" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="302" textAlignment="CENTER" />
+                  <Text fx:id="uno22211" layoutX="146.0" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="304" textAlignment="CENTER" />
+                  <Text fx:id="uno222111" layoutX="146.0" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="305" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="176.0" layoutY="124.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i200" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="INTERVENTORA" />
+                  <Text fx:id="i201" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="GERTRUDIS" />
+                  <Text fx:id="i202" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MIGUEL" />
+                  <Text fx:id="i203" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="GONZALO" />
+                  <Text fx:id="i204" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="JOSEMI" />
+                  <Text fx:id="i205" layoutY="111.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIA CARMEN ROLDAN" />
+                  <Text fx:id="i206" layoutY="128.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="J.M. CASTRO" />
+                  <Text fx:id="i208" layoutY="145.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="A. AVILES" />
+                  <Text fx:id="i209" layoutY="162.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="RAFA ALCAIDE" />
+                  <Text fx:id="i216" layoutY="179.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="BECARIO/A" />
+                  <Text fx:id="i214" layoutY="196.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MARISA" />
+                  <Text fx:id="i215" layoutY="213.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. Mª DESIREE VELAZQUEZ">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Text>
+                  <Text fx:id="uno3111" strokeType="OUTSIDE" strokeWidth="0.0" text="Interv/Tesoreria" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno2221111" layoutX="146.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="200" textAlignment="CENTER" />
+                  <Text fx:id="uno22211111" layoutX="146.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="201" textAlignment="CENTER" />
+                  <Text fx:id="uno222111111" layoutX="146.0" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="202" textAlignment="CENTER" />
+                  <Text fx:id="uno2221111111" layoutX="146.0" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="203" textAlignment="CENTER" />
+                  <Text fx:id="uno22211111111" layoutX="146.0" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="204" textAlignment="CENTER" />
+                  <Text fx:id="uno222111111111" layoutX="146.0" layoutY="111.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="205" textAlignment="CENTER" />
+                  <Text fx:id="uno2221111111111" layoutX="146.0" layoutY="128.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="206" textAlignment="CENTER" />
+                  <Text fx:id="uno22211111111111" layoutX="146.0" layoutY="145.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="208" textAlignment="CENTER" />
+                  <Text fx:id="uno222111111111111" layoutX="146.0" layoutY="162.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="209" textAlignment="CENTER" />
+                  <Text fx:id="uno2221111111111111" layoutX="146.0" layoutY="179.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="216" textAlignment="CENTER" />
+                  <Text fx:id="uno22211111111111111" layoutX="146.0" layoutY="196.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="214" textAlignment="CENTER" />
+                  <Text fx:id="uno222111111111111111" layoutX="146.0" layoutY="213.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="215" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="174.0" layoutY="361.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i333b" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MANOLO" />
+                  <Text fx:id="i333a" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="JORGE" />
+                  <Text fx:id="uno31111" strokeType="OUTSIDE" strokeWidth="0.0" text="Informática" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno2221111111111111111" layoutX="146.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="333" textAlignment="CENTER" />
+                  <Text fx:id="uno22211111111111111111" layoutX="146.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="333" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="172.0" layoutY="428.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i418" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="EMILIO MORALES" />
+                  <Text fx:id="uno311111" strokeType="OUTSIDE" strokeWidth="0.0" text="Archivo" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno222111111111111111111" layoutX="146.0" layoutY="26.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="418" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="176.0" layoutY="482.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i110" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="ROSA" />
+                  <Text fx:id="i111" layoutY="44.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="PACO" />
+                  <Text fx:id="uno3111111" strokeType="OUTSIDE" strokeWidth="0.0" text="Notificadores" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno2221111111111111111111" layoutX="146.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="110" textAlignment="CENTER" />
+                  <Text fx:id="uno22211111111111111111111" layoutX="146.0" layoutY="44.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="111" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="355.0" layoutY="0.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="1.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i400" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. CARLOS PORCEL" />
+                  <Text fx:id="i401" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="FCO. SORIA" />
+                  <Text fx:id="i402" layoutY="60.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="FCO. PUNZANO" />
+                  <Text fx:id="i403" layoutY="77.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CAROLINA" />
+                  <Text fx:id="i404" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="M. PEREIRA" />
+                  <Text fx:id="i405" layoutY="111.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="PALOMA" />
+                  <Text fx:id="i406" layoutY="128.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="ONDINA" />
+                  <Text fx:id="i410" layoutY="200.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="RAMON" />
+                  <Text fx:id="i408" layoutX="1.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IGNACIO" />
+                  <Text fx:id="i409" layoutX="1.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ARACELI" />
+                  <Text fx:id="i411" layoutX="1.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P. QUINTANILLA" />
+                  <Text fx:id="i413" layoutX="1.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="J.M. ORELLANA" />
+                  <Text fx:id="i414" layoutX="1.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CRISTINA CORD." />
+                  <Text fx:id="i415" layoutX="1.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CRISTINA RODRI." />
+                  <Text fx:id="i416" layoutX="1.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIA JOSE" />
+                  <Text fx:id="uno221" layoutX="148.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="400" textAlignment="CENTER" />
+                  <Text fx:id="uno3111111111" strokeType="OUTSIDE" strokeWidth="0.0" text="Urbanismo" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno2212" layoutX="148.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="401" textAlignment="CENTER" />
+                  <Text fx:id="uno22121" layoutX="148.0" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="402" textAlignment="CENTER" />
+                  <Text fx:id="uno221211" layoutX="148.0" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="403" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111" layoutX="148.0" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="404" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111" layoutX="148.0" layoutY="111.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="405" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111" layoutX="148.0" layoutY="128.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="406" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111" layoutX="149.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="408" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111" layoutX="149.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="409" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111" layoutX="149.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="410" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111" layoutX="149.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="411" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111" layoutX="149.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="413" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111" layoutX="149.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="414" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111" layoutX="149.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="415" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111" layoutX="149.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="416" textAlignment="CENTER" />
+                  <Text fx:id="i574" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. BERTA Mª LINARES">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno22121111112" layoutX="136.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="82011" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="355.0" layoutY="375.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="1.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i450" layoutY="28.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. ANTONIO GARCIA " wrappingWidth="183.416015625" />
+                  <Text fx:id="i452" layoutY="62.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª EUGENIA" />
+                  <Text fx:id="i453" layoutY="79.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="SUSANA" />
+                  <Text fx:id="i454" layoutY="97.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="CANTARERO" />
+                  <Text fx:id="i457" layoutY="114.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="RAUL" />
+                  <Text fx:id="i458" layoutY="132.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="ISIDRO" />
+                  <Text fx:id="i459" layoutY="150.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="TERE" />
+                  <Text fx:id="uno221211111111111111" layoutX="148.0" layoutY="28.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="450" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111" layoutX="148.0" layoutY="63.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="452" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111" layoutX="148.0" layoutY="80.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="453" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111111111" layoutX="148.0" layoutY="97.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="454" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111" layoutX="148.0" layoutY="114.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="457" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111" layoutX="148.0" layoutY="132.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="458" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111111111111" layoutX="148.0" layoutY="150.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="459" textAlignment="CENTER" />
+                  <Text fx:id="uno311111111" strokeType="OUTSIDE" strokeWidth="0.0" text="Recursos Humanos" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="i451" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARCOS" />
+                  <Text fx:id="uno22121111111111111112" layoutX="148.0" layoutY="46.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="451" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="530.0" layoutY="5.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="2.0" layoutY="-22.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i500" layoutX="6.0" layoutY="22.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="RECEPCION" />
+                  <Text fx:id="i501" layoutX="6.0" layoutY="40.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="A. GALVEZ" />
+                  <Text fx:id="i502" layoutX="5.0" layoutY="56.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="QUIROSA" />
+                  <Text fx:id="i503" layoutX="5.0" layoutY="73.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="ATESTADOS" />
+                  <Text fx:id="i504" layoutX="5.0" layoutY="90.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIO" />
+                  <Text fx:id="i512" layoutX="5.0" layoutY="107.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="MIGUEL A. ESPIGARES" />
+                  <Text fx:id="uno2211" layoutX="150.0" layoutY="23.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="500" textAlignment="CENTER" />
+                  <Text fx:id="uno31111111112" layoutX="4.0" layoutY="-4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jefatura de policia" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno2212111111111111111111111" layoutX="150.0" layoutY="41.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="501" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111" layoutX="150.0" layoutY="56.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="502" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111111111111111" layoutX="150.0" layoutY="73.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="503" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111" layoutX="150.0" layoutY="90.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="504" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111" layoutX="150.0" layoutY="107.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="512" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="535.0" layoutY="142.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i550" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª CARRASCO" />
+                  <Text fx:id="i551" layoutY="42.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª EUGENIA" />
+                  <Text fx:id="i552" layoutY="59.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="MAITE" />
+                  <Text fx:id="i553" layoutY="76.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="AFRICA" />
+                  <Text fx:id="i554" layoutY="93.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="PAQUI" />
+                  <Text fx:id="i555" layoutY="110.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="P. PRACTICAS" />
+                  <Text fx:id="uno311111111121" strokeType="OUTSIDE" strokeWidth="0.0" text="Centro de la mujer" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno221211111111111111111111111111" layoutX="145.0" layoutY="26.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="550" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111" layoutX="145.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="551" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111" layoutX="145.0" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="552" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111111111111111111111" layoutX="145.0" layoutY="77.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="553" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111" layoutX="145.0" layoutY="94.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="554" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111111" layoutX="145.0" layoutY="111.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="555" textAlignment="CENTER" />
+                  <Text fx:id="i573" layoutX="1.0" layoutY="126.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. ROSA CARMEN " />
+                  <Text fx:id="uno221211111111111111111111111111111112" layoutX="133.0" layoutY="126.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="82003" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="532.0" layoutY="320.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-19.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i580" layoutY="25.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. SOFIA BEDON" />
+                  <Text fx:id="i581" layoutY="42.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="JUVENTUD" />
+                  <Text fx:id="i582" layoutY="59.4462890625" strokeType="OUTSIDE" strokeWidth="0.0" text="LUDOTECA" />
+                  <Text fx:id="uno3111111111211" strokeType="OUTSIDE" strokeWidth="0.0" text="Espacio joven" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno221211111111111111111111111111111111" layoutX="145.0" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="580" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111111" layoutX="145.0" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="581" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111111111" layoutX="145.0" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="582" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="715.0" layoutY="1.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i540" layoutY="25.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. ANTONIO ORTIGOSA">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Text>
+                  <Text fx:id="i541" layoutY="42.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="OFICINA" />
+                  <Text fx:id="i542" layoutY="59.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONCERJERIA" />
+                  <Text fx:id="i82104" layoutY="76.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CARDENETE" />
+                  <Text fx:id="i82101" layoutY="93.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="JORGE VELAZQUEZ" />
+                  <Text fx:id="uno31111111112111" strokeType="OUTSIDE" strokeWidth="0.0" text="Cultura" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno221211111111111111111111111111111111111" layoutX="145.0" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="540" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111111111" layoutX="145.0" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="541" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111111111111" layoutX="145.0" layoutY="60.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="542" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111111111111111111111111111111" layoutX="132.0" layoutY="77.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="82104" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111111111111" layoutX="132.0" layoutY="94.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="82101" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="716.0" layoutY="143.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i560" layoutY="25.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="SUSANA" />
+                  <Text fx:id="i561" layoutY="42.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. MARCELO MONTOYA">
+                     <font>
+                        <Font size="11.0" />
+                     </font></Text>
+                  <Text fx:id="i562" layoutY="59.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="SERGIO" />
+                  <Text fx:id="i563" layoutY="76.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="A. AZNAR" />
+                  <Text fx:id="i564" layoutY="93.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="IRENE" />
+                  <Text fx:id="i565" layoutY="110.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="PISCINA" />
+                  <Text fx:id="uno311111111121111" strokeType="OUTSIDE" strokeWidth="0.0" text="Deportes" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno221211111111111111111111111111111111111112" layoutX="145.0" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="560" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111111111121" layoutX="145.0" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="561" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111111111111211" layoutX="145.0" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="562" textAlignment="CENTER" />
+                  <Text fx:id="uno221211111111111111111111111111111111111112111" layoutX="145.0" layoutY="77.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="563" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111111111121111" layoutX="145.0" layoutY="94.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="564" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111111111111211111" layoutX="145.0" layoutY="111.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="565" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <Group layoutX="715.0" layoutY="289.6552734375">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="1.0" layoutY="-18.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+                  <Text fx:id="i570" layoutY="25.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="PILAR" />
+                  <Text fx:id="i571" layoutY="42.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="OFICINA OYB" />
+                  <Text fx:id="i572" layoutY="59.3955078125" strokeType="OUTSIDE" strokeWidth="0.0" text="JESUS" />
+                  <Text fx:id="uno3111111111211111" strokeType="OUTSIDE" text="Obras y Servicios" textAlignment="CENTER" wrappingWidth="165.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="uno221211111111111111111111111111111111111112111111" layoutX="145.0" layoutY="26.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="570" textAlignment="CENTER" />
+                  <Text fx:id="uno2212111111111111111111111111111111111111121111111" layoutX="145.0" layoutY="43.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="571" textAlignment="CENTER" />
+                  <Text fx:id="uno22121111111111111111111111111111111111111211111111" layoutX="145.0" layoutY="60.2939453125" strokeType="OUTSIDE" strokeWidth="0.0" text="572" textAlignment="CENTER" />
+               </children>
+            </Group>
+            <TextField fx:id="texto" layoutX="673.0" layoutY="474.0" onAction="#mirartexto" prefHeight="25.0" prefWidth="196.0" />
+            <Text fx:id="uno31131" layoutX="532.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre a buscar:" wrappingWidth="165.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="532.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="boton" layoutX="787.0" layoutY="415.0" mnemonicParsing="false" onAction="#clickboton" prefHeight="26.0" prefWidth="83.0" text="Teléfonos">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="botonbus" layoutX="787.0" layoutY="440.0" mnemonicParsing="false" onAction="#clickbotonbus" prefHeight="30.0" prefWidth="83.0" text="Autobuses">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="botoncorreos" layoutX="732.0" layoutY="415.0" mnemonicParsing="false" onAction="#clickbotoncorreo" prefHeight="55.0" prefWidth="55.0" text="\@">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <Text fx:id="uno3113" layoutX="298.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listín telefónico 22/08/2018" textAlignment="CENTER" wrappingWidth="296.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

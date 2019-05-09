@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication12.FXMLCorreosController">
+   <children>
+      <ImageView fitHeight="733.0" fitWidth="1081.0" opacity="0.61" pickOnBounds="true">
+         <image>
+            <Image url="@fondo.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fb9ff" height="35.0" layoutX="-6.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1089.0" />
+      <Group id="body" layoutX="196.0" layoutY="220.0">
+         <children>
+            <TextField fx:id="texto" layoutX="717.0" layoutY="474.0" onAction="#mirartexto" prefHeight="25.0" prefWidth="149.0" />
+            <Text fx:id="uno31131" layoutX="572.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre a buscar:" wrappingWidth="165.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="568.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Text fx:id="uno3113" layoutX="393.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listín telefónico 22/08/2018" textAlignment="CENTER" wrappingWidth="296.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="-1.0" layoutY="34.0" prefHeight="700.0" prefWidth="1081.0">
+         <content>
+            <GridPane alignment="CENTER" prefHeight="1800.0" prefWidth="1080.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane alignment="CENTER" maxHeight="1800.0" prefHeight="1800.0" prefWidth="384.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.0" minWidth="10.0" prefWidth="134.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="327.0" minWidth="241.0" prefWidth="250.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Text fx:id="i1" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="1" />
+                        <Text fx:id="i2" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="2" />
+                        <Text fx:id="i3" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="3" />
+                        <Text fx:id="i4" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="4" />
+                        <Text fx:id="i5" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="5" />
+                        <Text fx:id="i6" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="6" />
+                        <Text fx:id="i7" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="7" />
+                        <Text fx:id="i8" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="8" />
+                        <Text fx:id="i9" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="9" />
+                        <Text fx:id="i10" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="10" />
+                        <Text fx:id="i11" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="11" />
+                        <Text fx:id="i12" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="12" />
+                        <Text fx:id="i13" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="13" />
+                        <Text fx:id="i14" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="14" />
+                        <Text fx:id="i15" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="15" />
+                        <Text fx:id="i16" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="16" />
+                        <Text fx:id="i17" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="17" />
+                        <Text fx:id="i18" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="18" />
+                        <Text fx:id="i19" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="19" />
+                        <Text fx:id="i20" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="20" />
+                        <Text fx:id="i21" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="21" />
+                        <Text fx:id="i22" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="22" />
+                        <Text fx:id="i24" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="24" />
+                        <Text fx:id="i26" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="26" />
+                        <Text fx:id="i28" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="28" />
+                        <Text fx:id="i30" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="30" />
+                        <Text fx:id="i23" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="23" />
+                        <Text fx:id="i25" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="25" />
+                        <Text fx:id="i27" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="27" />
+                        <Text fx:id="i29" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="29" />
+                        <Text fx:id="i31" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="31" />
+                        <Text fx:id="i32" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="32" />
+                        <Text fx:id="i33" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="33" />
+                        <Text fx:id="n1" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Text fx:id="n2" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Text fx:id="n3" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Text fx:id="n4" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Text fx:id="n5" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Text fx:id="n6" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Text fx:id="n7" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Text fx:id="n8" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Text fx:id="n9" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <Text fx:id="n10" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <Text fx:id="n11" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <Text fx:id="n12" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <Text fx:id="n13" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                        <Text fx:id="n14" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                        <Text fx:id="n15" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                        <Text fx:id="n16" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                        <Text fx:id="n17" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                        <Text fx:id="n18" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                        <Text fx:id="n19" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+                        <Text fx:id="n20" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="20" />
+                        <Text fx:id="n21" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="21" />
+                        <Text fx:id="n22" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="22" />
+                        <Text fx:id="n24" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="24" />
+                        <Text fx:id="n26" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="26" />
+                        <Text fx:id="n28" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="28" />
+                        <Text fx:id="n30" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="30" />
+                        <Text fx:id="n23" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="23" />
+                        <Text fx:id="n25" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="25" />
+                        <Text fx:id="n27" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="27" />
+                        <Text fx:id="n29" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="29" />
+                        <Text fx:id="n31" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="31" />
+                        <Text fx:id="n32" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="32" />
+                        <Text fx:id="n33" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="33" />
+                        <Text fx:id="i34" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="34" />
+                        <Text fx:id="i35" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="35" />
+                        <Text fx:id="i36" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="36" />
+                        <Text fx:id="i37" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="37" />
+                        <Text fx:id="i38" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="38" />
+                        <Text fx:id="i39" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="39" />
+                        <Text fx:id="i40" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="40" />
+                        <Text fx:id="i41" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="41" />
+                        <Text fx:id="i42" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="42" />
+                        <Text fx:id="i43" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="43" />
+                        <Text fx:id="i44" strokeType="OUTSIDE" strokeWidth="0.0" text="TEXTO" GridPane.rowIndex="44" />
+                        <Text fx:id="n34" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="34" />
+                        <Text fx:id="n35" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="35" />
+                        <Text fx:id="n36" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="36" />
+                        <Text fx:id="n37" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="37" />
+                        <Text fx:id="n38" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="38" />
+                        <Text fx:id="n39" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="39" />
+                        <Text fx:id="n40" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="40" />
+                        <Text fx:id="n41" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="41" />
+                        <Text fx:id="n42" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="42" />
+                        <Text fx:id="n43" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="43" />
+                        <Text fx:id="n44" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" textAlignment="CENTER" wrappingWidth="240" GridPane.columnIndex="1" GridPane.rowIndex="44" />
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

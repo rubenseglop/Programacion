@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane id="AnchorPane" minHeight="600.0" minWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication12.FXMLAutobusesController">
+   <children>
+      <GridPane layoutX="14.0" layoutY="867.0" minWidth="342.0" prefHeight="25.0" prefWidth="392.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="botonurbano" mnemonicParsing="false" onAction="#clickurbano" prefHeight="25.0" prefWidth="95.0" text="Urbano" />
+            <Button mnemonicParsing="false" onAction="#clickctm" prefHeight="25.0" prefWidth="98.0" text="CTM Granada" GridPane.columnIndex="1" />
+            <Button mnemonicParsing="false" onAction="#clickmetro" prefHeight="25.0" prefWidth="97.0" text="Metro" GridPane.columnIndex="2" />
+            <Button mnemonicParsing="false" onAction="#clickrober" prefHeight="25.0" prefWidth="99.0" text="Rober" GridPane.columnIndex="3" />
+         </children>
+      </GridPane>
+      <ImageView fx:id="unaimagen" fitHeight="906.0" fitWidth="997.0" layoutX="420.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus/urbano.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="dosimagen" fitHeight="828.0" fitWidth="392.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus/urbano-horario.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

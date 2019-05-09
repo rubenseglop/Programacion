@@ -1,0 +1,11 @@
+Alumn@ de Ciencias 0: Nota experimentos: 10 Nota actitud: 5 -> Nota final: 10
+Alumn@ de Ciencias 1: Nota experimentos: 4 Nota actitud: 2 -> Nota final: 4
+Alumn@ de Ciencias 2: Nota experimentos: 4 Nota actitud: 9 -> Nota final: 5
+Alumn@ de Ciencias 3: Nota experimentos: 1 Nota actitud: 3 -> Nota final: 1
+Alumn@ de Ciencias 4: Nota experimentos: 5 Nota actitud: 4 -> Nota final: 5
+Alumn@ de Ciencias 5: Nota experimentos: 10 Nota actitud: 3 -> Nota final: 9
+Alumn@ de Ciencias 6: Nota experimentos: 7 Nota actitud: 2 -> Nota final: 7
+Alumn@ de Ciencias 7: Nota experimentos: 4 Nota actitud: 6 -> Nota final: 4
+Alumn@ de Ciencias 8: Nota experimentos: 10 Nota actitud: 6 -> Nota final: 10
+Alumn@ de Ciencias 9: Nota experimentos: 4 Nota actitud: 10 -> Nota final: 5
+Alumn@ de Informática 0: Nota examen: 10 Nota trabajos: 7 -> Nota final: 9Alumn@ de Informática 1: Nota examen: 3 Nota trabajos: 3 -> Nota final: 3Alumn@ de Informática 2: Nota examen: 6 Nota trabajos: 9 -> Nota final: 7Alumn@ de Informática 3: Nota examen: 3 Nota trabajos: 4 -> Nota final: 3Alumn@ de Informática 4: Nota examen: 5 Nota trabajos: 3 -> Nota final: 5Alumn@ de Informática 5: Nota examen: 5 Nota trabajos: 4 -> Nota final: 5Alumn@ de Informática 6: Nota examen: 5 Nota trabajos: 10 -> Nota final: 6Alumn@ de Informática 7: Nota examen: 4 Nota trabajos: 2 -> Nota final: 4Alumn@ de Informática 8: Nota examen: 2 Nota trabajos: 2 -> Nota final: 2Alumn@ de Informática 9: Nota examen: 4 Nota trabajos: 10 -> Nota final: 5Alumn@ de Música 0: Nota examen: 8 Nota actitud: 2 Nota trabajos: 10 -> Alumn@ de Música 1: Nota examen: 1 Nota actitud: 8 Nota trabajos: 1 -> Alumn@ de Música 2: Nota examen: 9 Nota actitud: 3 Nota trabajos: 9 -> Alumn@ de Música 3: Nota examen: 8 Nota actitud: 10 Nota trabajos: 2 -> Alumn@ de Música 4: Nota examen: 5 Nota actitud: 5 Nota trabajos: 9 -> Alumn@ de Música 5: Nota examen: 10 Nota actitud: 2 Nota trabajos: 2 -> Alumn@ de Música 6: Nota examen: 3 Nota actitud: 10 Nota trabajos: 6 -> Alumn@ de Música 7: Nota examen: 9 Nota actitud: 5 Nota trabajos: 5 -> Alumn@ de Música 8: Nota examen: 8 Nota actitud: 6 Nota trabajos: 1 -> Alumn@ de Música 9: Nota examen: 5 Nota actitud: 5 Nota trabajos: 10 -> 

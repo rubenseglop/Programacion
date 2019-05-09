@@ -1,0 +1,33 @@
+Departamento de informática
+Alumno 0 Nota de examen: 7.0 - Nota ejercicios: 5.0 - Nota final: 6,60
+Alumno 1 Nota de examen: 2.0 - Nota ejercicios: 7.0 - Nota final: 3,00
+Alumno 2 Nota de examen: 7.0 - Nota ejercicios: 6.0 - Nota final: 6,80
+Alumno 3 Nota de examen: 2.0 - Nota ejercicios: 7.0 - Nota final: 3,00
+Alumno 4 Nota de examen: 5.0 - Nota ejercicios: 5.0 - Nota final: 5,00
+Alumno 5 Nota de examen: 5.0 - Nota ejercicios: 3.0 - Nota final: 4,60
+Alumno 6 Nota de examen: 9.0 - Nota ejercicios: 4.0 - Nota final: 8,00
+Alumno 7 Nota de examen: 2.0 - Nota ejercicios: 1.0 - Nota final: 1,80
+Alumno 8 Nota de examen: 6.0 - Nota ejercicios: 5.0 - Nota final: 5,80
+Alumno 9 Nota de examen: 8.0 - Nota ejercicios: 9.0 - Nota final: 8,20
+Departamento de música
+Alumno 0 Nota de examen: 5.0 - Nota ejercicios: 5.0 - Nota actitud 9.0 - Nota final: 2,70
+Alumno 1 Nota de examen: 4.0 - Nota ejercicios: 9.0 - Nota actitud 7.0 - Nota final: 2,10
+Alumno 2 Nota de examen: 3.0 - Nota ejercicios: 1.0 - Nota actitud 3.0 - Nota final: ,90
+Alumno 3 Nota de examen: 3.0 - Nota ejercicios: 7.0 - Nota actitud 2.0 - Nota final: ,60
+Alumno 4 Nota de examen: 6.0 - Nota ejercicios: 7.0 - Nota actitud 9.0 - Nota final: 2,70
+Alumno 5 Nota de examen: 8.0 - Nota ejercicios: 1.0 - Nota actitud 3.0 - Nota final: ,90
+Alumno 6 Nota de examen: 5.0 - Nota ejercicios: 5.0 - Nota actitud 8.0 - Nota final: 2,40
+Alumno 7 Nota de examen: 7.0 - Nota ejercicios: 5.0 - Nota actitud 7.0 - Nota final: 2,10
+Alumno 8 Nota de examen: 5.0 - Nota ejercicios: 8.0 - Nota actitud 1.0 - Nota final: ,30
+Alumno 9 Nota de examen: 5.0 - Nota ejercicios: 8.0 - Nota actitud 5.0 - Nota final: 1,50
+Departamento de ciencias
+Alumno 0 Nota de experimentos: 4.0 - Nota actitud 9.0 - Nota final: 3,60
+Alumno 1 Nota de experimentos: 9.0 - Nota actitud 2.0 - Nota final: 8,10
+Alumno 2 Nota de experimentos: 4.0 - Nota actitud 7.0 - Nota final: 3,60
+Alumno 3 Nota de experimentos: 9.0 - Nota actitud 2.0 - Nota final: 8,10
+Alumno 4 Nota de experimentos: 1.0 - Nota actitud 7.0 - Nota final: ,90
+Alumno 5 Nota de experimentos: 2.0 - Nota actitud 8.0 - Nota final: 1,80
+Alumno 6 Nota de experimentos: 9.0 - Nota actitud 2.0 - Nota final: 8,10
+Alumno 7 Nota de experimentos: 8.0 - Nota actitud 9.0 - Nota final: 7,20
+Alumno 8 Nota de experimentos: 1.0 - Nota actitud 4.0 - Nota final: ,90
+Alumno 9 Nota de experimentos: 7.0 - Nota actitud 3.0 - Nota final: 6,30

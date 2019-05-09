@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="892.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication12.FXMLDocumentController">
+   <children>
+      <Text fx:id="i100" layoutX="4.0" layoutY="58.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACION" />
+      <Text fx:id="i101" layoutX="4.0" layoutY="75.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACION" />
+      <Text fx:id="i102" layoutX="4.0" layoutY="92.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACION" />
+      <Text fx:id="i103" layoutX="4.0" layoutY="126.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="BELEN" />
+      <Text fx:id="uno2" layoutX="149.0" layoutY="58.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="100" textAlignment="CENTER" />
+      <Text fx:id="uno21" layoutX="149.0" layoutY="75.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="101" />
+      <Text fx:id="uno211" layoutX="149.0" layoutY="92.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="102" />
+      <Text fx:id="uno2111" layoutX="149.0" layoutY="126.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="103" />
+      <Text fx:id="uno31" layoutX="4.0" layoutY="111.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Formacion y Empleo" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="i104" layoutX="4.0" layoutY="143.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="PALOMA" />
+      <Text fx:id="i107" layoutX="4.0" layoutY="160.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. ANT. GARRIDO" />
+      <Text fx:id="i108" layoutX="4.0" layoutY="177.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="C. ALMAGRO" />
+      <Text fx:id="i109" layoutX="4.0" layoutY="194.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="EMILIA" />
+      <Text fx:id="i460" layoutX="4.0" layoutY="228.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. BIENESTAR" />
+      <Text fx:id="uno21111" layoutX="149.0" layoutY="143.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="104" />
+      <Text fx:id="uno21112" layoutX="149.0" layoutY="160.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="107" />
+      <Text fx:id="uno21113" layoutX="149.0" layoutY="177.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="108" />
+      <Text fx:id="uno21114" layoutX="149.0" layoutY="194.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="109" />
+      <Text fx:id="i461" layoutX="4.0" layoutY="245.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="RECEPCION" />
+      <Text fx:id="i462" layoutX="4.0" layoutY="262.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="ELVIRA" />
+      <Text fx:id="i463" layoutX="4.0" layoutY="279.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="REME" />
+      <Text fx:id="i464" layoutX="4.0" layoutY="296.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="AGUSTINA" />
+      <Text fx:id="i465" layoutX="4.0" layoutY="313.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="LOLA MARTINEZ" />
+      <Text fx:id="i466" layoutX="4.0" layoutY="330.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="CESAR" />
+      <Text fx:id="i467" layoutX="4.0" layoutY="347.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="MARINA" />
+      <Text fx:id="i468" layoutX="4.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ARACELI" />
+      <Text fx:id="i469" layoutX="4.0" layoutY="381.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="LOLA MUÑOZ" />
+      <Text fx:id="i309" layoutX="4.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ELISA (SEC. GENERAL)" />
+      <Text fx:id="i303" layoutX="4.0" layoutY="432.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="ALF. PULIDO" />
+      <Text fx:id="i306" layoutX="4.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOLANDA" />
+      <Text fx:id="i307" layoutX="4.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIAN" />
+      <Text fx:id="i308" layoutX="4.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOLI" />
+      <Text fx:id="i310" layoutX="4.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JOSE" />
+      <Text fx:id="i300" layoutX="181.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALCALDE NOEL LOPEZ" />
+      <Text fx:id="i301" layoutX="181.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARLOS" />
+      <Text fx:id="i302" layoutX="181.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARU" />
+      <Text fx:id="i304" layoutX="181.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RITA" />
+      <Text fx:id="i305" layoutX="181.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIGUEL MARTIN" />
+      <Text fx:id="i200" layoutX="181.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INTERVENTORA" />
+      <Text fx:id="i201" layoutX="181.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GERTRUDIS" />
+      <Text fx:id="i202" layoutX="181.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIGUEL" />
+      <Text fx:id="i203" layoutX="181.0" layoutY="211.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="GONZALO" />
+      <Text fx:id="i204" layoutX="181.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JOSEMI" />
+      <Text fx:id="i205" layoutX="181.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª. C. ROLDAN" />
+      <Text fx:id="i206" layoutX="181.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="J.M. CASTRO" />
+      <Text fx:id="i208" layoutX="181.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A. AVILES" />
+      <Text fx:id="i209" layoutX="181.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RAFA ALCAIDE" />
+      <Text fx:id="i216" layoutX="181.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BECARIO/A" />
+      <Text fx:id="i214" layoutX="181.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARISA" />
+      <Text fx:id="i333b" layoutX="181.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MANOLO" />
+      <Text fx:id="i333a" layoutX="181.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JORGE" />
+      <Text fx:id="i215" layoutX="181.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESIRE" />
+      <Text fx:id="i418" layoutX="181.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMULIO MORALES" />
+      <Text fx:id="i110" layoutX="181.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROSA" />
+      <Text fx:id="i111" layoutX="181.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PACO" />
+      <Text fx:id="uno22" layoutX="327.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="300" textAlignment="CENTER" />
+      <Text fx:id="i400" layoutX="359.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C. URB. CARLOS PORCEL" />
+      <Text fx:id="i401" layoutX="359.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FCO. SORIA" />
+      <Text fx:id="i402" layoutX="359.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FCO. PUNZANO" />
+      <Text fx:id="i403" layoutX="359.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAROLINA" />
+      <Text fx:id="i404" layoutX="359.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M. PEREIRA" />
+      <Text fx:id="i405" layoutX="359.0" layoutY="143.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="PALOMA" />
+      <Text fx:id="i406" layoutX="359.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ONDINA" />
+      <Text fx:id="i410" layoutX="359.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RAMON" />
+      <Text fx:id="i408" layoutX="359.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IGNACIO" />
+      <Text fx:id="i409" layoutX="359.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ARACELI" />
+      <Text fx:id="i411" layoutX="359.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P. QUINTANILLA" />
+      <Text fx:id="i413" layoutX="359.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="J.M. ORELLANA" />
+      <Text fx:id="i414" layoutX="359.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CRISTINA CORD." />
+      <Text fx:id="i415" layoutX="359.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CRISTINA RODRI." />
+      <Text fx:id="i416" layoutX="359.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIA JOSE" />
+      <Text fx:id="i450" layoutX="359.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. RRHH NONO" />
+      <Text fx:id="i452" layoutX="359.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª EUGENIA" />
+      <Text fx:id="i453" layoutX="359.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUSANA" />
+      <Text fx:id="i454" layoutX="359.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CANTARERO" />
+      <Text fx:id="i457" layoutX="359.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RAUL" />
+      <Text fx:id="i458" layoutX="359.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ISIDRO" />
+      <Text fx:id="i459" layoutX="359.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TERE" />
+      <Text fx:id="i500" layoutX="539.0" layoutY="58.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="RECEPCION" />
+      <Text fx:id="uno221" layoutX="507.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="400" textAlignment="CENTER" />
+      <Text fx:id="i501" layoutX="539.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A. GALVEZ" />
+      <Text fx:id="i502" layoutX="539.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUIROSA" />
+      <Text fx:id="i503" layoutX="539.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATESTADOS" />
+      <Text fx:id="i504" layoutX="539.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MARIO" />
+      <Text fx:id="i512" layoutX="539.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIGUEL A. ESPIGARES" />
+      <Text fx:id="i550" layoutX="539.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª CARRASCO" />
+      <Text fx:id="i551" layoutX="539.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mª EUGENIA" />
+      <Text fx:id="i552" layoutX="539.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAITE" />
+      <Text fx:id="i553" layoutX="539.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AFRICA" />
+      <Text fx:id="i554" layoutX="539.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAQUI" />
+      <Text fx:id="i555" layoutX="539.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P. PRACTICAS" />
+      <Text fx:id="i580" layoutX="539.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. JUVENTUD" />
+      <Text fx:id="i581" layoutX="539.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUVENTUD" />
+      <Text fx:id="i582" layoutX="539.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LUDOTECA" />
+      <Text fx:id="i540" layoutX="719.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. CULTURA" />
+      <Text fx:id="uno2211" layoutX="684.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="500" textAlignment="CENTER" />
+      <Text fx:id="i541" layoutX="719.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OFICINA" />
+      <Text fx:id="i542" layoutX="719.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONCERJERIA" />
+      <Text fx:id="i82104" layoutX="719.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARDENETE" />
+      <Text fx:id="i82101" layoutX="719.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JORGE VELAZQUEZ" />
+      <Text fx:id="i560" layoutX="719.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUSANA" />
+      <Text fx:id="i561" layoutX="719.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONC. DEPORTES" />
+      <Text fx:id="i562" layoutX="719.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SERGIO" />
+      <Text fx:id="i563" layoutX="719.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A. AZNAR" />
+      <Text fx:id="i564" layoutX="719.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IRENE" />
+      <Text fx:id="i565" layoutX="719.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PISCINA" />
+      <Text fx:id="i570" layoutX="719.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PILAR" />
+      <Text fx:id="i571" layoutX="719.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OFICINA OYB" />
+      <Text fx:id="i572" layoutX="719.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JESUS" />
+      <Text fx:id="uno311" layoutX="181.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alcaldia" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno3111" layoutX="181.0" layoutY="145.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Interv/Tesoreria" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno31111" layoutX="181.0" layoutY="366.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Informática" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno311111" layoutX="181.0" layoutY="417.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Archivo" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno3111111" layoutX="181.0" layoutY="453.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Notificadores" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno31111111" layoutX="4.0" layoutY="400.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Secretaria" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno311111111" layoutX="359.0" layoutY="332.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Recursos Humanos" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno3111111111" layoutX="359.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Urbanismo" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno31111111111" layoutX="4.0" layoutY="213.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Servicios Sociales" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno31111111112" layoutX="539.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Jefatura de policia" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno311111111121" layoutX="539.0" layoutY="162.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Centro de la mujer" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno3111111111211" layoutX="539.0" layoutY="281.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Espacio joven" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno31111111112111" layoutX="719.0" layoutY="43.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Cultura" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno311111111121111" layoutX="719.0" layoutY="145.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Deportes" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="uno3111111111211111" layoutX="719.0" layoutY="264.3447265625" strokeType="OUTSIDE" strokeWidth="0.0" text="Obras y Servicios" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="texto" layoutX="4.0" layoutY="524.0" onAction="#mirartexto" />
+      <Text fx:id="uno211141" layoutX="149.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="460" />
+      <Text fx:id="uno2111411" layoutX="149.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="461" />
+      <Text fx:id="uno21114111" layoutX="149.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="462" />
+      <Text fx:id="uno211141111" layoutX="149.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="463" />
+      <Text fx:id="uno2111411111" layoutX="149.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="464" />
+      <Text fx:id="uno21114111111" layoutX="149.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="465" />
+      <Text fx:id="uno211141111111" layoutX="149.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="466" />
+      <Text fx:id="uno2111411111111" layoutX="149.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="467" />
+      <Text fx:id="uno21114111111111" layoutX="149.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="468" />
+      <Text fx:id="uno211141111111111" layoutX="149.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="469" />
+      <Text fx:id="uno2111411111111111" layoutX="149.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="309" />
+      <Text fx:id="uno21114111111111111" layoutX="149.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="303" />
+      <Text fx:id="uno211141111111111111" layoutX="149.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="306" />
+      <Text fx:id="uno2111411111111111111" layoutX="149.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="307" />
+      <Text fx:id="uno21114111111111111111" layoutX="149.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="308" />
+      <Text fx:id="uno211141111111111111111" layoutX="149.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="310" />
+      <Text fx:id="uno222" layoutX="327.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="301" textAlignment="CENTER" />
+      <Text fx:id="uno2221" layoutX="327.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="302" textAlignment="CENTER" />
+      <Text fx:id="uno22211" layoutX="327.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="304" textAlignment="CENTER" />
+      <Text fx:id="uno222111" layoutX="327.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="305" textAlignment="CENTER" />
+      <Text fx:id="uno2221111" layoutX="327.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200" textAlignment="CENTER" />
+      <Text fx:id="uno22211111" layoutX="327.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="201" textAlignment="CENTER" />
+      <Text fx:id="uno222111111" layoutX="327.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="202" textAlignment="CENTER" />
+      <Text fx:id="uno2221111111" layoutX="327.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="203" textAlignment="CENTER" />
+      <Text fx:id="uno22211111111" layoutX="327.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="204" textAlignment="CENTER" />
+      <Text fx:id="uno222111111111" layoutX="327.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="205" textAlignment="CENTER" />
+      <Text fx:id="uno2221111111111" layoutX="327.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="206" textAlignment="CENTER" />
+      <Text fx:id="uno22211111111111" layoutX="327.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="208" textAlignment="CENTER" />
+      <Text fx:id="uno222111111111111" layoutX="327.0" layoutY="296.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="209" textAlignment="CENTER" />
+      <Text fx:id="uno2221111111111111" layoutX="327.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="216" textAlignment="CENTER" />
+      <Text fx:id="uno22211111111111111" layoutX="327.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="214" textAlignment="CENTER" />
+      <Text fx:id="uno222111111111111111" layoutX="327.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="215" textAlignment="CENTER" />
+      <Text fx:id="uno2221111111111111111" layoutX="327.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="333" textAlignment="CENTER" />
+      <Text fx:id="uno22211111111111111111" layoutX="327.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="333" textAlignment="CENTER" />
+      <Text fx:id="uno222111111111111111111" layoutX="327.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="418" textAlignment="CENTER" />
+      <Text fx:id="uno2221111111111111111111" layoutX="327.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="110" textAlignment="CENTER" />
+      <Text fx:id="uno22211111111111111111111" layoutX="327.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="111" textAlignment="CENTER" />
+      <Text fx:id="uno2212" layoutX="507.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="401" textAlignment="CENTER" />
+      <Text fx:id="uno22121" layoutX="507.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="402" textAlignment="CENTER" />
+      <Text fx:id="uno221211" layoutX="507.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="403" textAlignment="CENTER" />
+      <Text fx:id="uno2212111" layoutX="507.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="404" textAlignment="CENTER" />
+      <Text fx:id="uno22121111" layoutX="507.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="405" textAlignment="CENTER" />
+      <Text fx:id="uno221211111" layoutX="507.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="406" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111" layoutX="507.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="408" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111" layoutX="507.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="409" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111" layoutX="507.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="410" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111" layoutX="507.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="411" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111" layoutX="507.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="413" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111" layoutX="507.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="414" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111" layoutX="507.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="415" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111" layoutX="507.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="416" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111" layoutX="507.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="450" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111" layoutX="507.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="452" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111" layoutX="507.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="453" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111" layoutX="507.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="454" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111" layoutX="507.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="457" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111" layoutX="507.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="458" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111" layoutX="507.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="459" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111" layoutX="684.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="501" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111" layoutX="684.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="502" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111" layoutX="684.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="503" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111" layoutX="684.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="504" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111" layoutX="684.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="512" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111" layoutX="684.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="550" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111" layoutX="684.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="551" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111" layoutX="684.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="552" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111" layoutX="684.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="553" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111" layoutX="684.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="554" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111111" layoutX="684.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="555" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111111" layoutX="684.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="580" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111111" layoutX="684.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="581" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111111111" layoutX="684.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="582" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111111111" layoutX="864.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="540" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111111111" layoutX="864.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="541" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111111111111" layoutX="864.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="542" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111111111111" layoutX="864.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="543" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111111111111" layoutX="864.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="543" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111111111112" layoutX="864.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="560" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111111111121" layoutX="864.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="561" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111111111111211" layoutX="864.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="562" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111111111112111" layoutX="864.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="563" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111111111121111" layoutX="864.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="564" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111111111111211111" layoutX="864.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="565" textAlignment="CENTER" />
+      <Text fx:id="uno221211111111111111111111111111111111111112111111" layoutX="864.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="570" textAlignment="CENTER" />
+      <Text fx:id="uno2212111111111111111111111111111111111111121111111" layoutX="864.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="571" textAlignment="CENTER" />
+      <Text fx:id="uno22121111111111111111111111111111111111111211111111" layoutX="864.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="572" textAlignment="CENTER" />
+      <Text fx:id="uno3112" layoutX="4.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Información" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

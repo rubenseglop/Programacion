@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="TuPropioBanco">
+  <ClassDiagramComponents>
+    <Class name="Banco" package="tupropiobanco" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Cliente" package="tupropiobanco" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="numero_cliente" type="int" visibility="private"/>
+        <Field name="mi_cuenta_corriente" type="int" visibility="private"/>
+        <Field name="cuenta" type="CuentaCorriente" visibility="private" isFinal="true"/>
+        <Field name="cuentasBancarias" type="CuentaCorriente[]" visibility="private" isFinal="true"/>
+        <Field name="finalizar" type="boolean" visibility="private"/>
+        <Field name="turno" type="boolean" visibility="private"/>
+        <Field name="dia" type="int" visibility="private"/>
+        <Field name="mes" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="numero_cliente"/>
+          <Argument type="int" name="numero_cuenta_corriente"/>
+          <Argument type="CuentaCorriente" name="cuenta"/>
+          <Argument type="CuentaCorriente[]" name="cuentasBancarias"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="numeroCliente" returnType="int" visibility="public"/>
+        <Method name="finalizar" returnType="void" visibility="public"/>
+        <Method name="run" returnType="void" visibility="public"/>
+        <Method name="final_cliente" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CuentaCorriente" package="tupropiobanco" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="saldoCuenta" type="double" visibility="private"/>
+        <Field name="id_cuenta" type="int" visibility="private"/>
+        <Field name="fichero" type="Ficheros" visibility="private" isFinal="true"/>
+        <Field name="imprimir" type="String" visibility="private"/>
+        <Field name="cuentasBancarias" type="CuentaCorriente[]" visibility="private"/>
+        <Field name="cuenta" type="CuentaCorriente" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="saldoInicio"/>
+          <Argument type="int" name="numero_cliente"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="imprimeSaldoInicio" returnType="double" visibility="public">
+          <Argument type="int" name="cliente"/>
+          <Argument type="int" name="numero_cuenta"/>
+        </Method>
+        <Method name="imprimeSaldo" returnType="double" visibility="public">
+          <Argument type="int" name="cliente"/>
+        </Method>
+        <Method name="imprimeSaldoFinal" returnType="void" visibility="public">
+          <Argument type="int" name="cliente"/>
+        </Method>
+        <Method name="ingresarSaldo" returnType="void" visibility="public">
+          <Argument type="int" name="cuenta"/>
+          <Argument type="double" name="saldo"/>
+        </Method>
+        <Method name="retirarSaldo" returnType="boolean" visibility="public">
+          <Argument type="int" name="cliente"/>
+          <Argument type="double" name="saldo"/>
+        </Method>
+        <Method name="transferenciaSaldo" returnType="void" visibility="public">
+          <Argument type="int" name="clienteOrigen"/>
+          <Argument type="int" name="clienteDestino"/>
+          <Argument type="double" name="saldo"/>
+          <Argument type="CuentaCorriente" name="cuenta"/>
+          <Argument type="CuentaCorriente[]" name="cuentasBancarias"/>
+        </Method>
+        <Method name="depositos" returnType="void" visibility="public"/>
+        <Method name="intereses" returnType="void" visibility="public"/>
+        <Method name="imprimeMes" returnType="void" visibility="public">
+          <Argument type="int" name="mes"/>
+          <Argument type="int" name="dia"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Ficheros" package="tupropiobanco" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="fichero" type="File" visibility="private"/>
+        <Field name="bw" type="BufferedWriter" visibility="private"/>
+        <Field name="fw" type="FileWriter" visibility="private"/>
+        <Field name="nombreArchivo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="escribeArchivo" returnType="void" visibility="public">
+          <Argument type="String" name="contenido"/>
+        </Method>
+        <Method name="crearArchivo" returnType="void" visibility="public"/>
+        <Method name="eliminaArchivo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TuPropioBanco" package="tupropiobanco" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="tupropiobanco.CuentaCorriente" target="tupropiobanco.CuentaCorriente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cuenta" source="tupropiobanco.CuentaCorriente" target="tupropiobanco.CuentaCorriente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cuenta" source="tupropiobanco.Cliente" target="tupropiobanco.CuentaCorriente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="fichero" source="tupropiobanco.CuentaCorriente" target="tupropiobanco.Ficheros" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
